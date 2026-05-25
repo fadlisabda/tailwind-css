@@ -1,0 +1,8 @@
+.footer {
+  & &-heading {
+    color: red;
+  }
+  & &-paragraph {
+    color: blue;
+  }
+}

@@ -1,0 +1,4 @@
+https://sass-lang.com/documentation/at-rules/import/
+https://sass-lang.com/install/
+
+sass scss/main.scss css/main.css

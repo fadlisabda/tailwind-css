@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/final.css" />
+    <style>
+      /* * {
+        border: 1px solid red;
+      } */
+    </style>
+  </head>
+  <body class="dark:bg-slate-800 dark:text-slate-200">
+    <div class="max-w-3xl mx-auto">
+      <blockquote class="font-inter text-8xl font-bold text-center my-10"><span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">"tes"</span></blockquote>
+    </div>
+    <div
+      class="max-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-fixed bg-contain overflow-hidden bg-blend-overlay blur-sm hover:blur-none"
+      style="background-image: url('https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?q=80&w=1392&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
+    >
+      <div class="w-full h-full bg-blue-300 mix-blend-darken"></div>
+    </div>
+    <div
+      class="max-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] bg-contain flex bg-no-repeat"
+      style="background-image: url('https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?q=80&w=1392&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
+    >
+      <div class="w-[200px] h-[200px] bg-white/30 m-auto backdrop-blur-md rounded-full"></div>
+    </div>
+    <hr class="my-20" />
+    <div class="flex justify-center">
+      <span class="text-sm text-slate-500 mr-2">Light</span>
+      <input type="checkbox" id="toggle" class="hidden" />
+      <label for="toggle">
+        <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
+          <div class="w-4 h-4 bg-white rounded-full toggle-circle"></div>
+        </div>
+      </label>
+      <span class="text-sm text-slate-500 ml-2">Dark</span>
+    </div>
+    <button
+      class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
+    >
+      Button
+    </button>
+    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group dark:hover:bg-slate-300">
+      <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">My Card</h5>
+      <p
+        class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laboriosam consequuntur cum obcaecati. Quas ducimus quisquam molestias velit officia omnis sapiente quam debitis ratione deserunt! Pariatur similique neque facilis facere
+        dolorum obcaecati iure asperiores sapiente minima et tempore deserunt delectus adipisci minus repudiandae, quae beatae voluptatum aliquid earum praesentium! Quis?
+      </p>
+    </div>
+    <hr class="my-20" />
+    <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
+      <form action="">
+        <label for="email">
+          <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+          <input
+            type="email"
+            id="email"
+            placeholder="Masukkan email.."
+            class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
+          />
+          <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid</p>
+        </label>
+      </form>
+    </div>
+    <hr class="my-20" />
+    <div class="w-40 h-40 bg-sky-500 mx-auto rounded-lg md:aspect-[3/4] xl:aspect-[4/3] shadow-lg hover:scale-125 hover:rotate-180 transition hover:bg-pink-500 origin-top-left"></div>
+    <div class="w-40 h-40 mx-auto mt-20 group">
+      <div class="w-full h-full bg-sky-500 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] shadow-lg group-hover:rotate-180 origin-top-left transition"></div>
+    </div>
+    <div class="w-40 h-40 bg-pink-500 mx-auto rounded-lg md:aspect-[3/4] xl:aspect-[4/3] shadow-lg mt-20 animate-goyang"></div>
+    <hr class="my-20 border-t-4" />
+    <div class="container mx-auto">
+      <div class="border rounded-lg md:aspect-[3/4] xl:aspect-[4/3] shadow-lg p-10 relative">
+        <div class="w-10 h-10 bg-sky-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer"><a href="#" class="text-xl m-auto">🔝</a></div>
+        <img
+          src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Laptop"
+          width="150"
+          class="float-left mr-3"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti laudantium impedit iusto dolorum. Accusamus nesciunt quod eos, quis dolorum deleniti. Quidem, optio dolore! Exercitationem perferendis accusamus eaque blanditiis
+          laborum architecto porro ex ipsam, alias similique veritatis, perspiciatis tempore provident doloribus odit asperiores quasi dicta ipsa sequi natus, sint distinctio ad amet? Sunt, deserunt doloremque! Accusamus sapiente commodi
+          ad, et nemo praesentium unde quaerat pariatur tempore tempora perspiciatis, exercitationem, ullam ea cum. Corrupti obcaecati tempora possimus, omnis cum, enim dolor veritatis fugit quae temporibus itaque perferendis quibusdam
+          ipsam iure a laudantium. Ex dignissimos amet aliquam ratione sint consequatur reprehenderit possimus, culpa, soluta corrupti molestiae, nobis vero. Itaque soluta suscipit vero odio ea eum cum accusamus, perferendis eligendi quidem
+          ex voluptas velit! Assumenda aut quam deserunt expedita illum eos ratione sed recusandae consequatur iusto in doloremque rem amet, quae quod nisi molestias unde architecto tempore, eum aliquid vitae. Soluta fugiat illo ratione
+          iste doloremque perferendis fuga eveniet exercitationem accusamus suscipit officia, maxime iure, quod mollitia placeat est ad nobis. Natus officia, rem dolorem quaerat adipisci iure laudantium minus aliquam nam iste repellat
+          obcaecati quibusdam maxime necessitatibus provident nostrum! Eaque ea, sint repudiandae, aliquam molestias excepturi laborum consequuntur dignissimos iure, repellendus unde amet.
+        </p>
+      </div>
+    </div>
+    <div class="border rounded-lg md:aspect-[3/4] xl:aspect-[4/3] shadow-lg p-10 container mx-auto mt-20 columns-3">
+      <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="mb-4" />
+      <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="mb-4" />
+      <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="mb-4" />
+      <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="mb-4" />
+      <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="mb-4" />
+      <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image" class="mb-4" />
+    </div>
+    <hr class="mt-24 border-t-4" />
+    <!-- sm:bg-red-200 md:bg-transparent -->
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0">
+      <div class="lg:p-12 lg:flex-1">
+        <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl md:text-6xl">Fadli Sabda <span class="text-sky-500">Dinov</span></h3>
+        <img
+          src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Laptop"
+          class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+        />
+        <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">Mari Belajar Programming Bersama Fadli</h2>
+        <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed non tempora tenetur commodi saepe facere nemo eligendi voluptatum? Sequi, ipsam voluptatem amet sit ex vel non! Laboriosam esse dolorum, nesciunt dolore quod ut eaque
+          aliquid numquam fugiat facilis? Accusamus, iusto!
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <a href="#" class="inline-block px-5 py-3 bg-red-600 rounded-lg shadow-lg uppercase font-semibold tracking-wider text-sm text-white sm:text-base">Subcribe Channel Youtube</a>
+        </div>
+      </div>
+      <div class="hidden lg:flex lg:w-1/2">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Laptop"
+          class="object-cover rounded-l-full"
+        />
+      </div>
+    </div>
+
+    <h2 class="mt-24 mb-10 text-center font-bold text-3xl text-slate-700">My Gallery</h2>
+    <div class="container mx-auto px-6 font-inter sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 sm:w-64 bg-white md:w-80 sm:mb-0 lg:w-72">
+        <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate.</p>
+        </div>
+      </div>
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white md:w-80 sm:mb-0 lg:w-72">
+        <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate.</p>
+        </div>
+      </div>
+      <div class="rounded-md shadow-lg overflow-hidden mb-10 bg-white md:w-80 sm:mb-0 lg:w-72">
+        <img src="https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Caption" class="w-full" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-slate-700">Image Title</div>
+          <p class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, cupiditate.</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-64 p-2 font-inter grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+      <h2 class="text-xl h-15 font-semibold text-slate-700 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">Welcome to WPU</span></h2>
+      <div class="h-15 text-lg font-bold text-slate-600 md:col-start-2 md:row-start-2 md-flex"><span class="self-end">@sandhikagalih</span></div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-3">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-2">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-4">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-3">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+      <div class="group grid-card md:col-start-3">
+        <div class="grid-card-img bg-[url('https://plus.unsplash.com/premium_photo-1689902335785-b187c1c324f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      </div>
+    </div>
+    <h1>Hello WPU</h1>
+    <hr class="my-20" />
+    <div class="flex items-center justify-center h-80 bg-gray-100">
+      <div class="px-8 py-6 mt-4 text-left shadow-lg rounded-md bg-sky-100">
+        <h3 class="text-2xl font-bold text-center text-sky-900">My Form</h3>
+        <form action="">
+          <div class="mt-4">
+            <div>
+              <label for="email" class="block text-sky-800">Email</label>
+              <input type="text" id="email" placeholder="Masukkan email.." class="py-2 border w-full block text-sm px-4 mt-2 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-600" />
+            </div>
+            <div class="flex items-baseline justify-center">
+              <button class="px-6 py-2 mt-4 text-white transition ease-in-out bg-sky-600 rounded-md hover:bg-sky-900">Kirim</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr class="my-20" />
+    <div class="px-4 py-8 sm:px-8">
+      <table class="w-full text-sm border-separate border-spacing-4">
+        <thead>
+          <tr>
+            <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200">Provinsi</th>
+            <th class="w-1/2 border border-slate-300 dark:border-slate-600 font-semibold p-4 text-slate-900 dark:text-slate-200">Ibu Kota</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-slate-300 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Jawa Timur</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="w-2/3 m-auto mb-[500px] [&>*]:bg-pink-100 [&>*]:text-pink-700 [&>li:first-child]:bg-sky-100 [&>li:nth-child(2)>div>span:nth-child(2):hover]:bg-emerald-400">
+      <li class="bg-teal-100 rounded-lg py-3 px-6 mb-2 text-base text-teal-700 text-center">item 1</li>
+      <li class="bg-teal-100 rounded-lg py-3 px-6 mb-2 text-base text-teal-700 text-center">
+        <div>
+          <span class="inline-block w-10 h-10 bg-sky-400"></span>
+          <span class="inline-block w-10 h-10 bg-sky-400"></span>
+          <span class="inline-block w-10 h-10 bg-sky-400"></span>
+        </div>
+      </li>
+    </ul>
+    <div class="mb-96"></div>
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+      checkbox.addEventListener("click", function () {
+        checkbox.checked ? html.classList.add("dark") : html.classList.remove("dark");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+dipakai:
+semantic
+akali tidak semantic
+kategori
+
+webstorage
+jangan digunakan untuk data sensitif dan otentikasi
+session,cookie
+
+mediaelements
+loading
+audiovidio
+
+gak ada dipakai:
+svg
+coba
+
+form validation combo sama tailwind
+color
+hexa.style.color = warna.value;
+
+canvas
+
+
+
+
+
+

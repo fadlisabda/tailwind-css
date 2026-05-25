@@ -1,0 +1,51 @@
+custom value,theme
+
+kenapa tailwind?
+https://adamwathan.me/css-utility-classes-and-separation-of-concerns/
+
+instalasi&konfigurasi
+https://tailwindcss.com/docs/installation/using-vite=react js
+https://tailwindcss.com/docs/installation/tailwind-cli
+reset kode lama(development)=npm run dev lagi
+npx @tailwindcss/cli -o ./src/output.css --minify=production
+npm init -y=package.json
+
+utility1
+spacing
+sizing
+typography=letter spacing
+
+utility2
+backgrounds=color stops,cropping to text,attachment
+borders=divide width,outline,ring
+effects=mix blend mode,background blend mode
+Filters=backdrop filter
+
+pseudoclass&darkmode
+https://tailwindcss.com/docs/hover-focus-and-other-states=styling based on parent state,pseudo class,selection,first line&letter,before&after,placeholder,styling based on sibling state
+dark mode
+
+transform,Transitions & Animation=hover tidak patah2
+
+layouting=scroll,cursor,columns,object-cover,object-center
+
+responsive design
+mobile first,container
+
+flexbox
+kalau ingin vertikal flex->div->konten
+
+grid
+aspect ratio
+grid grid-rows-subgrid=melanjutkan dari no5
+
+Functions & Directives
+pakai cli
+@base @components @layer diganti dengan @import "tailwindcss";
+@apply bisa bikin komponen
+theme()=bisa beda nilai di output
+screen()
+
+tailwind4
+prettier plugin tailwindcss
+https://tailwindcss.com/blog/tailwindcss-v4
